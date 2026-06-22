@@ -1,0 +1,41 @@
+{
+  "home":"Home",
+  "about":"About",
+  "robots":"Robots",
+  "projects":"Projects",
+  "contact":"Contact",
+
+  "heroTitle":"ERNUR VYNX AI ROBOTICS",
+  "heroText":"Artificial Intelligence and Robotics Center in Taraz",
+
+  "explore":"View Projects",
+
+  "mission":"Our Mission",
+  "vision":"Our Vision",
+  "team":"Our Team",
+  "services":"Services",
+  "technology":"Technologies",
+  "future":"Future Projects",
+
+  "send":"Send",
+  "message":"Message",
+  "email":"Email",
+  "phone":"Phone",
+
+  "location":"Location",
+  "statistics":"Statistics",
+  "projectsCount":"Projects",
+  "robotsCount":"Robots",
+
+  "education":"Education",
+  "healthcare":"Healthcare",
+  "industry":"Industry",
+  "automation":"Automation",
+
+  "partners":"Partners",
+  "clients":"Clients",
+  "support":"Support",
+
+  "footer":"All Rights Reserved",
+  "copyright":"© 2026 ERNUR VYNX AI ROBOTICS"
+}
