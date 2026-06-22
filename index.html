@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ERNUR VYNX AI Robotics | Taraz</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.5);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00e5ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#050816,#0a1633);
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#00e5ff;
+color:black;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:100px 10%;
+}
+
+.title{
+font-size:40px;
+text-align:center;
+margin-bottom:50px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#0e1831;
+padding:25px;
+border-radius:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+footer{
+padding:40px;
+text-align:center;
+background:#02040c;
+}
+
+.lang{
+padding:8px;
+border-radius:8px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:38px;
+}
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+ERNUR VYNX
+</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#robots">Robots</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<select class="lang" id="lang">
+<option value="kz">Қазақша</option>
+<option value="ru">Русский</option>
+<option value="en">English</option>
+</select>
+
+</header>
+
+<section class="hero" id="home">
+
+<div>
+
+<h1 id="title">
+ERNUR VYNX AI ROBOTICS
+</h1>
+
+<p id="subtitle">
+Тараз қаласындағы жасанды интеллект және робототехника орталығы
+</p>
+
+<a href="#about" class="btn" id="explore">
+Толығырақ
+</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">
+About Company
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>AI Development</h3>
+<p>
+Жасанды интеллект жүйелерін әзірлеу.
+</p>
+</div>
+
+<div class="card">
+<h3>Robotics</h3>
+<p>
+Өнеркәсіптік және білім беру роботтары.
+</p>
+</div>
+
+<div class="card">
+<h3>Automation</h3>
+<p>
+Кәсіпорындарды автоматтандыру шешімдері.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="robots">
+
+<h2 class="title">
+Robots
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>IQ230</h3>
+<p>
+Premium AI Robot System
+</p>
+</div>
+
+<div class="card">
+<h3>VX900</h3>
+<p>
+Industrial Automation Robot
+</p>
+</div>
+
+<div class="card">
+<h3>NeuralBot</h3>
+<p>
+Advanced Neural Assistant
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="title">
+Projects
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Smart Taraz</h3>
+<p>
+Тараз қаласына арналған ақылды қала жүйесі.
+</p>
+</div>
+
+<div class="card">
+<h3>AI Education</h3>
+<p>
+Мектептерге арналған AI платформасы.
+</p>
+</div>
+
+<div class="card">
+<h3>Factory AI</h3>
+<p>
+Өндірісті автоматтандыру жобасы.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">
+Contact
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Location</h3>
+<p>
+Taraz, Kazakhstan
+</p>
+</div>
+
+<div class="card">
+<h3>Email</h3>
+<p>
+info@ernurvynx.com
+</p>
+</div>
+
+<div class="card">
+<h3>Phone</h3>
+<p>
++7 700 000 0000
+</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>ERNUR VYNX AI ROBOTICS</h3>
+
+<p>
+Taraz • Kazakhstan • 2026
+</p>
+
+</footer>
+
+<script>
+
+const translations = {
+
+kz:{
+title:"ERNUR VYNX AI ROBOTICS",
+subtitle:"Тараз қаласындағы жасанды интеллект және робототехника орталығы",
+explore:"Толығырақ"
+},
+
+ru:{
+title:"ERNUR VYNX AI ROBOTICS",
+subtitle:"Центр искусственного интеллекта и робототехники города Тараз",
+explore:"Подробнее"
+},
+
+en:{
+title:"ERNUR VYNX AI ROBOTICS",
+subtitle:"Artificial Intelligence and Robotics Center in Taraz",
+explore:"Explore"
+}
+
+};
+
+document.getElementById("lang").addEventListener("change",function(){
+
+const lang=this.value;
+
+document.getElementById("title").innerText=
+translations[lang].title;
+
+document.getElementById("subtitle").innerText=
+translations[lang].subtitle;
+
+document.getElementById("explore").innerText=
+translations[lang].explore;
+
+});
+
+</script>
+
+</body>
+</html>
