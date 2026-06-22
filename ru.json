@@ -1,0 +1,41 @@
+{
+  "home":"Главная",
+  "about":"О нас",
+  "robots":"Роботы",
+  "projects":"Проекты",
+  "contact":"Контакты",
+
+  "heroTitle":"ERNUR VYNX AI ROBOTICS",
+  "heroText":"Центр искусственного интеллекта и робототехники города Тараз",
+
+  "explore":"Посмотреть проекты",
+
+  "mission":"Наша миссия",
+  "vision":"Наше видение",
+  "team":"Наша команда",
+  "services":"Услуги",
+  "technology":"Технологии",
+  "future":"Будущие проекты",
+
+  "send":"Отправить",
+  "message":"Сообщение",
+  "email":"Электронная почта",
+  "phone":"Телефон",
+
+  "location":"Местоположение",
+  "statistics":"Статистика",
+  "projectsCount":"Проекты",
+  "robotsCount":"Роботы",
+
+  "education":"Образование",
+  "healthcare":"Здравоохранение",
+  "industry":"Промышленность",
+  "automation":"Автоматизация",
+
+  "partners":"Партнеры",
+  "clients":"Клиенты",
+  "support":"Поддержка",
+
+  "footer":"Все права защищены",
+  "copyright":"© 2026 ERNUR VYNX AI ROBOTICS"
+}
